@@ -8,14 +8,14 @@ const router = express.Router();
 
 //GET
 
- router.get('/', authenticateToken, (req, res) => {
+/*  router.get('/', authenticateToken, (req, res) => {
     db.query('SELECT * FROM carteira ', (err, results) => {
       if (err) {
         return res.status(500).json({ message: 'Erro ao buscar estrategias', error: err });
       }
       res.json(results); // Retorna todos os estrategias
     });
-  }); 
+  });  */
 
 
 // GET: Buscar carteiras e seus ativos de um usuário específico

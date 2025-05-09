@@ -8,7 +8,7 @@ const router = express.Router();
 
 //GET
 
- router.get('/', authenticateToken, (req, res) => {
+/*  router.get('/', authenticateToken, (req, res) => {
     db.query('SELECT * FROM estrategias ', (err, results) => {
       if (err) {
         return res.status(500).json({ message: 'Erro ao buscar estrategias', error: err });
@@ -16,7 +16,7 @@ const router = express.Router();
       res.json(results); // Retorna todos os estrategias
     });
   }); 
-
+ */
 
 /*   // BUSCAR COM FILTRO
 router.get('/:usuario', authenticateToken, (req, res) => {
